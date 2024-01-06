@@ -60,7 +60,7 @@ const Footer = () => {
                 <a className='mb-4 opacity-50'>+012 3456789</a>
               </Link>
               <Link href='/'>
-                <a className='mb-5 opacity-50'>adorableprogrammer@gmail.com</a>
+                <a className='mb-5 opacity-50'>umaajayphotos@gmail.com</a>
               </Link>
               <div className='flex items-center'>
                 <div className='mr-10 cursor-pointer'>
@@ -93,8 +93,10 @@ const Footer = () => {
         </div>
       </div>
       <div className='flex justify-center items-center mb-8'>
-        &copy; <span className='font-bold mr-1'>Joonacode </span>
-        Desain By <span className='font-bold ml-1'>Zarror</span>
+        &copy; <span className='font-bold mr-1'>
+          <a href='https://umaajay.netlify.app/' >
+          Uma Ajay Kumar </a></span>
+         <span className='font-bold ml-1'>Reddy P S</span>
       </div>
       <div
         onClick={scrollToTop}
